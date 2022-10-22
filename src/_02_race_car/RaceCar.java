@@ -35,12 +35,15 @@ public class RaceCar {
 		return this.brand;
 	}
 	
+	
+	
 	/**
 	 * Checks if car need a pit stop
 	 * @return needsPitStop
 	 */
 	boolean isDamaged() {
 		return damaged;
+		
 	}
 	/**
 	 * Brings the car in for a pit stop.
