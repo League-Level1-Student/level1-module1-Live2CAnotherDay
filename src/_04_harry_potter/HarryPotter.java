@@ -37,6 +37,7 @@ public class HarryPotter {
 
 	void spyOnSnape() {
 		System.out.println("Harry sees Professor Snape doing nefarious things.");
+	
 	}
 
 }

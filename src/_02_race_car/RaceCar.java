@@ -54,7 +54,7 @@ public class RaceCar {
 			System.out.println("The car has been pitted.");
 		}
 		else
-			System.out.println("The car does not need a pit stop.");	
+			System.out.println("The car does not need a pit stop.");
 	}
 	
 	/**
