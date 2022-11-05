@@ -9,7 +9,7 @@ import java.util.Random;
  */
 public class Vault {
 	private int secret = new Random().nextInt(1000001);
-
+	
 	/**
 	 * Tries to access the vault
 	 * 
@@ -17,6 +17,7 @@ public class Vault {
 	 * @return true if the guess matches the code, false otherwise
 	 */
 	public boolean tryCode(int guess) {
+		
 		return guess == secret;
 	}
 }
