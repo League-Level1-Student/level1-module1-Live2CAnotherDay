@@ -8,4 +8,8 @@ public class duck {
 	}
 	void waddle() {
 	}
+	duck(String favoriteFood, int numberOfFriends) {
+	       this.favoriteFood = favoriteFood;
+	       this.numberOfFriends = numberOfFriends;
+	}
 }
