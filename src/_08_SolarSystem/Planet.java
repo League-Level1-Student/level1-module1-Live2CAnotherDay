@@ -14,6 +14,7 @@ public class Planet {
     
     public Planet(int diameterPixels) {
         this.diameter = diameterPixels;
+        
     }
 
     public void draw(Graphics g, int numDays) {
@@ -94,3 +95,4 @@ public class Planet {
         }
     }
 }
+///Did Not want to work on anything here
